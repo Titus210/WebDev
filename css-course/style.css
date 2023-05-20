@@ -1,3 +1,9 @@
-h1{
-    color: green;
+body {
+    background-color: coral;
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+
 }
