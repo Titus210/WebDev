@@ -4,6 +4,7 @@
         <title>HTML Cheat Sheet</title>
     </head>
     <body>
+        <a href="blog.html">Go to blog</a>
         <!-- Headings -->
         <h1>Heading One</h1>
         <h2>Heading Two</h2>
@@ -36,11 +37,105 @@
             <li>Item 5</li>
         </ol>
 
-        <!-- Table -->
-        <table></table>
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jebet Cynthia</td>
+                    <td>jebet@gmail.com</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Crystal J</td>
+                    <td>crystaj@gmail.com</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Liam K</td>
+                    <td>liamk@gmail.com</td>
+                    <td>25</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName"
+                placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName"
+                placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="Birthday">
+            </div>
+            <br>
+            <input type="submit" name ="submit" value="submit">
+        </form>
+        <br>
+
+        <!-- Button -->
+        <button>Click Me</button>
+
+        <br>
+        <!-- Image -->
+        <img src="sample.jpg" alt="My Sample Image" width="200">
+
+        <br>
+        <!-- Quotations -->
+        <blockquote cite="http://traversy.com">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, commodi unde aut nulla sapiente fugit ea consectetur asperiores voluptas consequatur.
+        </blockquote>
+        <br>
+        <p>The <abbr title="World Wide Web">WWW</abbr>is awesome</p>
+
+        <p><cite>HTML crash course</cite> by Brad Traversy</p>
 
 
 
-
+        <div style="margin-top:500px"></div>
     </body>
 </html>
