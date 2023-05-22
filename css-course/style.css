@@ -48,3 +48,9 @@ body {
     letter-spacing: 0.2em;
     word-spacing: 1em;
 }
+
+.box-2 {
+    border:3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
