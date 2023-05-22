@@ -1,9 +1,12 @@
 body {
-    background-color: coral;
-    color: white;
+    background-color: #f4f4f4;
+    color: #555555;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-weight: normal;
+
+    line-height: 1.6em;
+    
 
 }
