@@ -107,6 +107,7 @@ a:visited{
     display: block;
 }
 
-.my-form input[type="text"],{
+.my-form input[type="text"], .my-form textarea{
     padding: 8px;
+    width: 100%;
 }
