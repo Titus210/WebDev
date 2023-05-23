@@ -11,6 +11,23 @@ body {
     
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+a:visited{
+    color: yellow;
+}
+
+
 .container{
     width: 80%;
     margin: auto;
@@ -63,4 +80,11 @@ body {
 
 .categories h2{
     text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+
 }
