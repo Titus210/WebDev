@@ -93,3 +93,21 @@ a:visited{
     border-bottom: dotted 1px #333;
     list-style-image: url('')
 }
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"],{
+    padding: 8px;
+    width: 100%;
+}
