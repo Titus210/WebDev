@@ -175,3 +175,8 @@ a:active{
     bottom: 40px;
     right: 100px;
 }
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
