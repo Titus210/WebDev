@@ -17,7 +17,7 @@ body{
     background-color: coral;
     color: #f4f4f4;
 }
-navbar{
+#navbar{
     background-color: #333;
     color: #fff;
 }
@@ -36,4 +36,8 @@ navbar{
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
+}
+
+#showcase{
+    background-image: url('../images/showcase.jpg');
 }
