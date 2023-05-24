@@ -111,3 +111,10 @@ a:visited{
     padding: 8px;
     width: 100%;
 }
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px 15px;
+    border: none;
+}
