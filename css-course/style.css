@@ -32,6 +32,14 @@ a:visited{
     width: 80%;
     margin: auto;
 }
+
+.button{
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px 15px;
+    border: none;
+}
+
 .box-1{
     background-color: #333;
     color: #f4f4f4;
