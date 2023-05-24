@@ -41,6 +41,10 @@ a:active{
     color: #f4f4f4;
 }
 
+.clr{
+    clear:both
+}
+
 .box-1{
     background-color: #333;
     color: #f4f4f4;
