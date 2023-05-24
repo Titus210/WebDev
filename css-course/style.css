@@ -23,10 +23,6 @@ a:hover{
 a:active{
     color: green;
 }
-a:visited{
-    color: yellow;
-}
-
 
 .container{
     width: 80%;
@@ -38,6 +34,11 @@ a:visited{
     color: #f4f4f4;
     padding: 10px 15px;
     border: none;
+}
+
+.button:hover{
+    background: red;
+    color: #f4f4f4;
 }
 
 .box-1{
