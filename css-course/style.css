@@ -162,6 +162,10 @@ a:active{
     border: 1px solid #000;
     margin-top: 30px;
     position: relative;
+    background-image: url('../images/bdg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center centre;
 }
 
 .p-box h1{
