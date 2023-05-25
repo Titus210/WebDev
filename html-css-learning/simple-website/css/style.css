@@ -41,7 +41,7 @@ body{
 #showcase{
     background-image: url('../images/showcase.jpg');
     background-position:center right;
-    height: 300px;
+    min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
 }
