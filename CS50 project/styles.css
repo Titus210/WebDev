@@ -1,5 +1,10 @@
 <style>
-  .showcase-section {
+  /* Add this CSS code to your <style> section or external CSS file */
+  .no-margin-bottom {
     margin-bottom: 0;
+  }
+
+  .no-margin-top {
+    margin-top: 0;
   }
 </style>
