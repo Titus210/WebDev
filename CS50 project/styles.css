@@ -1,5 +1,5 @@
-@media (max-width: 767px) {
-  body {
-    margin-bottom: 0;
+@media(min-width: 768px) {
+  .news-input{
+      width: 50%;
   }
 }
