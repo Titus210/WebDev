@@ -1,5 +1,4 @@
-@media(min-width: 768px) {
-  .news-input{
-      width: 50%;
-  }
+section {
+  background-color: #f2f2f2;
 }
+
