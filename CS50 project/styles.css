@@ -3,3 +3,7 @@ section {
   text-align: center;
 }
 
+.navbar-nav li {
+  margin-right: 10px;
+}
+
