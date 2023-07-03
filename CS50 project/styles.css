@@ -8,5 +8,9 @@ section {
 }
 
 footer {
-  font-size: 18px;
+  font-size: 18px; 
+}
+
+footer p {
+  color: #fff; /* Replace with your desired color */
 }
