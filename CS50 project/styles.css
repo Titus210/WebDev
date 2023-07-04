@@ -14,3 +14,7 @@ footer {
 footer p {
   color: #fff; /* Replace with your desired color */
 }
+
+.bg-custom-class {
+  background-color:cyan;
+}
