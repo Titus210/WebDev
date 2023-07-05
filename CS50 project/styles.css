@@ -18,3 +18,7 @@ footer p {
 .bg-custom-class {
   background-color: darkolivegreen;
 }
+
+#questions {
+  background-color: yellow;
+}
