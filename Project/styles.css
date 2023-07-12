@@ -11,6 +11,9 @@ section {
   background-color: #f2f2f2;
   text-align: center;
   height: 88vh;
+
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav li {
@@ -38,32 +41,38 @@ footer p {
   background-color: darkolivegreen;
 }
 
-/* Showcase content */
-.showcase-content {
+/* hero content */
+.hero-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.showcase-content > div {
+
+.hero-content > div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.showcase-content p {
+.hero-content p {
   text-align: center;
 }
 
 
+/* Make image come first in about page */
+.column-reverse{
+  flex-direction: column-reverse;
+}
+
 /* MEDIA QUERRY */
 
 @media screen and (min-width: 768px) {
-  /* Showcase content */
+  /* hero content */
 
   /* Desktop view to make the section items display in row */
-.showcase-content {
+.hero-content {
   flex-direction: row;
 }
 }
