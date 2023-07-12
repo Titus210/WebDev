@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 100vh;
+  height: max-content
 }
 
 section {
@@ -19,6 +19,7 @@ section {
 
 footer {
   font-size: 18px;
+  border-top: 1px solid gray; /* Border color to make distinction on sections */
 }
 
 footer p {
@@ -35,4 +36,34 @@ footer p {
 
 .accordion-item {
   background-color: darkolivegreen;
+}
+
+/* Showcase content */
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.showcase-content p {
+  text-align: center;
+}
+
+
+/* MEDIA QUERRY */
+
+@media screen and (min-width: 768px) {
+  /* Showcase content */
+
+  /* Desktop view to make the section items display in row */
+.showcase-content {
+  flex-direction: row;
+}
 }
